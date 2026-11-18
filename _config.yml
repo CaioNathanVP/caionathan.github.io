@@ -1,3 +1,4 @@
 # O GitHub Pages publica só o site. O código do contador fica de fora.
+# A barra no fim importa: sem ela, o Jekyll também exclui o contador.js.
 exclude:
-  - contador
+  - contador/
