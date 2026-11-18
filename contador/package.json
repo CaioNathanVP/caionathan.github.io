@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-contador",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8787",
+    "test": "vitest run",
+    "tipos": "wrangler types",
+    "verificar": "wrangler types && tsc --noEmit",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "1.5.1",
+    "typescript": "6.0.3",
+    "vitest": "4.1.12",
+    "wrangler": "4.157.0"
+  }
+}

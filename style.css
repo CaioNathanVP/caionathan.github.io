@@ -384,6 +384,7 @@ a { color: inherit; }
   font-size: 0.875rem;
   color: var(--apoio);
 }
+.rodape p + p { margin-top: 0.25rem; }
 
 /* ENTRADA DO NOME (o único movimento da página) -------------- */
 

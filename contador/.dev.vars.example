@@ -1,0 +1,3 @@
+# Copie para .dev.vars antes de rodar "npm run dev".
+ORIGEM_SITE=http://localhost:8765
+CHAVE_PAINEL=dev

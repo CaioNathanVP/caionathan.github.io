@@ -1,0 +1,3 @@
+# O GitHub Pages publica só o site. O código do contador fica de fora.
+exclude:
+  - contador

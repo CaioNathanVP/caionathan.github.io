@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "portfolio-contador",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-15",
+  "observability": { "enabled": true },
+  "vars": {
+    // Origem do portfólio publicado. Só ela pode registrar visitas e abrir o painel.
+    // Em desenvolvimento, o .dev.vars troca por http://localhost:8765.
+    "ORIGEM_SITE": "https://caionathanvp.github.io"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "portfolio-contador",
+      "database_id": "8d84d832-5d44-4c72-9566-6e6059e43a98",
+      "migrations_dir": "migrations"
+    }
+  ]
+  // O segredo CHAVE_PAINEL fica fora do repositório: "wrangler secret put CHAVE_PAINEL".
+}
